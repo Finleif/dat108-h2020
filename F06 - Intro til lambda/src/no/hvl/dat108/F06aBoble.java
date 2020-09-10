@@ -6,16 +6,9 @@ import java.util.List;
 public class F06aBoble {
 	
 	private static <T extends Comparable<T>> void sorter(List<T> listen) {
-		for (int i=0; i<listen.size(); i++) {
-			for (int j=1; j<listen.size(); j++) {
-				T a = listen.get(j-1);
-				T b = listen.get(j);
-				if (a.compareTo(b) > 0) {
-					listen.set(j-1, b);
-					listen.set(j, a);
-				}
-			}
-		}
+//		sorter(listen, (a,b) -> a.compareTo(b));
+//evt.
+		sorter(listen, T::compareTo);
 	}
 
 	private static <T extends Comparable<T>> void sorter(List<T> listen, Sammenligner<T> s) {
