@@ -15,10 +15,7 @@ import java.util.function.Predicate;
 public class Eksempel2_Oppgave {
 
     static void printAll(List<Person> listen) {
-        for (Person p : listen) {
-            System.out.println(p);
-
-        }
+        doConditionally(listen, p -> true, System.out::println);
     }
 
     static void printLastNAmeStartsWith(List<Person> listen) {
@@ -29,12 +26,8 @@ public class Eksempel2_Oppgave {
         }
     }
 
-    static void printConditionally(List<Person> listen, Predicate<Person> b) {
-        for (Person p : listen) {
-            if (b.test(p)) {
-                System.out.println(p);
-            }
-        }
+    static void printConditionally(List<Person> listen, Predicate<Person> pred) {
+  //      doConditionally(listen, pred, p -> System.out::println);
     }
 
     static void doConditionally(List<Person> listen, Predicate<Person> b, Consumer<Person> consumer) {
@@ -74,7 +67,7 @@ public class Eksempel2_Oppgave {
         //      spesialtilfelle. Lag en generell hjelpemetode printConditionally(...)
         //		gjør jobben i stedet. Denne tar inn listen + et lambdauttrykk.
         //  printConditionally(people, p -> p.getFirstName().startsWith("C"));
-     //   doConditionally(people, p -> p.getFirstName().startsWith("C"), p -> System.out.println(p));
+        //   doConditionally(people, p -> p.getFirstName().startsWith("C"), p -> System.out.println(p));
 
         // 5: Skriv ut ALLE personene ved å bruke printConditionally(...)
         //   printConditionally(people, p -> true);

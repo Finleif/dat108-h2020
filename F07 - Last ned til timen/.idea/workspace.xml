@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ff85176-1a9d-4638-84cc-485836b457ff" name="Default Changelist" comment="" />
+    <list default="true" id="7ff85176-1a9d-4638-84cc-485836b457ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/no/hvl/dat108/f07/Comparing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat108/f07/Eksempel2_Oppgave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat108/f07/Eksempel2_Oppgave.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,7 +39,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Eksempel4">
+  <component name="RunManager" selected="Application.Comparing">
+    <configuration name="Comparing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat108.f07.Comparing" />
+      <module name="F07 - Last ned til timen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat108.f07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eksempel1_Oppgave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat108.f07.Eksempel1_Oppgave" />
       <module name="F07 - Last ned til timen" />
@@ -70,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Comparing" />
         <item itemvalue="Application.Eksempel4" />
         <item itemvalue="Application.Eksempel2_Oppgave" />
         <item itemvalue="Application.Eksempel1_Oppgave" />
@@ -86,6 +111,9 @@
       <updated>1599476007561</updated>
       <workItem from="1599476008615" duration="3797000" />
       <workItem from="1599573470849" duration="328000" />
+      <workItem from="1599809004844" duration="2982000" />
+      <workItem from="1599812510935" duration="616000" />
+      <workItem from="1600078585097" duration="526000" />
     </task>
     <servers />
   </component>
@@ -93,30 +121,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1599653940643">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1599812309079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599653940643" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599482139261">
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599812309079" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599812393170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599482139261" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599482139260">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599812393170" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599812393169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599482139260" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599482139260">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599812393169" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599812393169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599482139260" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599482139260">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599812393169" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599812393170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599482139260" />
-    <state x="360" y="33" key="new project wizard" timestamp="1599653971254">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599812393170" />
+    <state x="330" y="18" key="new project wizard" timestamp="1600078688788">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599653971254" />
+    <state x="330" y="18" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600078688788" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1599477504548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
